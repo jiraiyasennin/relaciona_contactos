@@ -1,0 +1,142 @@
+h1{
+    height: 100px;
+    width: auto;
+    background-color: #4d4d4d;
+    text-align: center;
+    color: palegoldenrod;
+    font-size:  50px;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+body{
+    width:auto;
+    height: auto;
+    text-align: center;
+    font-family: verdana;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    font-size: 15px;
+    font-family: verdana;
+}
+.ok{
+    color: green;
+}
+.okborrar{
+    color: green;
+    font-size: 30px;
+}
+.error{
+    color:red;
+}
+.errorborrar{
+    color: red;
+    font-size: 30px;
+}
+.inputrelacionar{
+    width: auto;
+    height: 50px;
+}
+.index{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 20%;
+}
+th, td{
+    border: 1px solid #ddd;
+    padding: 2px;
+    text-align: center;
+}
+th{
+    background-color: #66a3ff;
+}
+.header a{
+    text-decoration: none;
+    padding:5px;
+    margin:5px;
+    box-shadow: 5px 5px grey;
+    border: solid 1px grey;
+    font-size:18px;
+    
+}
+.formulario{
+    text-decoration: none;
+    padding:5px;
+    margin:5px;
+    box-shadow: 5px 5px grey;
+    border: solid 1px grey;
+}
+input{
+    font-size:15pt;
+}
+.header a:hover{
+    background-color: #10A919;
+}
+td .borrar:hover{
+    background-color: #10A919;
+}
+.borrar:link{
+    background-color: green;
+    color: white;
+    padding: 3px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+td .relacionar:hover{
+    background-color: #e59a9a
+}
+.relacionar:link{
+    background-color: #A52A2A;
+    color: white;
+    padding: 3px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+.relacionar{
+    width: 50px;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 5px;
+}
+<!--Lista de contactos relacionados-->
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    width: inherit;
+}
+li {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.menurelacionar{
+    width: auto;
+    min-width: 300px;
+    border-collapse: collapse;
+    box-shadow: -1px 5px 5px 10px grey;
+    margin: auto;
+    padding: 10px;
+}
+.footer p{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    height: 20px;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 20px;
+}
